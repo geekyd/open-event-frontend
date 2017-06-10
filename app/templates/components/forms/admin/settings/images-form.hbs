@@ -1,0 +1,177 @@
+<form class="ui form" {{action 'submit' on='submit'}}>
+  <h2 class="ui header">{{t 'Event Images'}}</h2>
+  <h3 class="ui header">{{t 'Large Size'}}</h3>
+  <div class="three fields">
+    <div class="field">
+      <label>{{t 'Width (in px)'}}</label>
+      {{input type='number' name='large_width'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Height (in px)'}}</label>
+      {{input type='number' name='large_height'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Quality (in %)'}}</label>
+      {{input type='number' name='large_quantity'}}
+    </div>
+  </div>
+  <div class="row">
+    {{ui-checkbox class='ui checkbox' name='large_ratio'}}
+    <label>{{t 'Standard aspect ratio is 13:5. Tick to maintain aspect ratio.'}}</label>
+  </div>
+  <div class="row">
+    <div class="column">
+      {{t 'Standard Size of the available area is 1300px X 500px'}}
+    </div>
+    <div class="">
+      {{t 'Found in :'}}
+    </div>
+    <div class="ui bulleted list">
+      <div class="item">{{t 'Background Header Image in Public Event Page'}}</div>
+    </div>
+  </div>
+
+  <h3 class="ui header">{{t 'Thumbnail Size'}}</h3>
+  <div class="three fields">
+    <div class="field">
+      <label>{{t 'Width (in px)'}}</label>
+      {{input type='number' name='large_width'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Height (in px)'}}</label>
+      {{input type='number' name='large_height'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Quality (in %)'}}</label>
+      {{input type='number' name='large_quantity'}}
+    </div>
+  </div>
+  <div class="row">
+    {{ui-checkbox class='ui checkbox' name='large_ratio'}}
+    <label>{{t 'Standard aspect ratio is 5:2. Tick to maintain aspect ratio.'}}</label>
+  </div>
+  <div class="row">
+    <div class="column">
+      {{t 'Standard Size of the available area is 500px X 200px'}}
+    </div>
+    <div class="">
+      {{t 'Found in :'}}
+    </div>
+    <div class="ui bulleted list">
+      <div class="item">{{t 'Home Page Event Images'}}</div>
+      <div class="item">{{t 'My Session Page Event Images'}}</div>
+      <div class="item">{{t 'My Ticket Page Event Images'}}</div>
+    </div>
+  </div>
+
+  <h3 class="ui header">{{t 'Icon Size'}}</h3>
+  <div class="three fields">
+    <div class="field">
+      <label>{{t 'Width (in px)'}}</label>
+      {{input type='number' name='large_width'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Height (in px)'}}</label>
+      {{input type='number' name='large_height'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Quality (in %)'}}</label>
+      {{input type='number' name='large_quantity'}}
+    </div>
+  </div>
+  <div class="row">
+    {{ui-checkbox type='checkbox' class='ui checkbox' name='large_ratio'}}
+    <label>{{t 'Standard aspect ratio is 5:2. Tick to maintain aspect ratio.'}}</label>
+  </div>
+  <div class="row">
+    <div class="column">
+      {{t 'Standard Size of the available area is 75px X 30px'}}
+    </div>
+  </div>
+
+  <h3 class="ui header">{{t 'Logo Size (Event Wizard)'}}</h3>
+  <div class="three fields">
+    <div class="field">
+      <label>{{t 'Width (in px)'}}</label>
+      {{input type='number' name='large_width'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Height (in px)'}}</label>
+      {{input type='number' name='large_height'}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      {{t 'Standard Size of the available area is 500px X 200px'}}
+    </div>
+  </div>
+
+  <h2 class="ui header">{{t 'Profile/Speaker Images'}}</h2>
+  <h3 class="ui header">{{t 'Thumbnail Size'}}</h3>
+  <div class="two fields">
+    <div class="field">
+      <label>{{t 'Width & Height(in px)'}}</label>
+      {{input type='number' name='large_width'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Quality (in %)'}}</label>
+      {{input type='number' name='large_quantity'}}
+    </div>
+  </div>
+  <div class="row">
+    <label>{{t 'Standard Size of the available area is 150px X 150px'}}</label>
+  </div>
+  <div class="row">
+    <p>
+      {{t 'Found in :'}}
+    </p>
+    <div class="ui bulleted list">
+      <div class="item">{{t 'Event Public Page'}}</div>
+    </div>
+  </div>
+
+  <h3 class="ui header">{{t 'Small Size'}}</h3>
+  <div class="two fields">
+    <div class="field">
+      <label>{{t 'Width & Height(in px)'}}</label>
+      {{input type='number' name='large_width'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Quality (in %)'}}</label>
+      {{input type='number' name='large_quantity'}}
+    </div>
+  </div>
+  <div class="row">
+    <label>{{t 'Standard Size of the available area is 50px X 50px'}}</label>
+  </div>
+  <div class="row">
+    <p>{{t 'Found in :'}}</p>
+    <div class="ui bulleted list">
+      <div class="item">{{t 'Speaker Tab in Event Dashboard'}}</div>
+    </div>
+  </div>
+
+  <h3 class="ui header">{{t 'Icon Size'}}</h3>
+  <div class="two fields">
+    <div class="field">
+      <label>{{t 'Width & Height(in px)'}}</label>
+      {{input type='number' name='large_width'}}
+    </div>
+    <div class="field">
+      <label>{{t 'Quality (in %)'}}</label>
+      {{input type='number' name='large_quantity'}}
+    </div>
+  </div>
+  <div class="row">
+    <label>{{t 'Standard Size of the available area is 35px X 35px'}}</label>
+  </div>
+  <div class="row">
+    <p>{{t 'Found in :'}}</p>
+    <div class="ui bulleted list">
+      <div class="item">{{t 'Top Bar Right Corner'}}</div>
+    </div>
+  </div>
+  <div class="row">
+    <button class="ui teal button" type="submit" name="submit">{{t 'Save'}}</button>
+  </div>
+</form>
